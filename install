@@ -1,0 +1,13 @@
+Ejecución
+Instala dependencias:
+
+bash
+pip install -r requirements.txt
+Corre el servidor:
+
+bash
+uvicorn main:app --reload
+Accede a la documentación interactiva:
+
+Código
+http://127.0.0.1:8000/docs
